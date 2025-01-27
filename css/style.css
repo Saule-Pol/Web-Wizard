@@ -7,6 +7,8 @@
 body {
   margin: 0;
   background-color: black;
+  background-image: url("title.jpg");
+
 }
 .Logo {
   display: flex;
@@ -116,3 +118,16 @@ header {
   gap: 0px;
   opacity: 0px;
 }
+<<<<<<< HEAD
+=======
+.img {
+  width: 1920px;
+  height: 975px;
+  gap: 0px;
+  opacity: 0px;
+}
+.background {
+  width: 1920px;
+  height: 975px;
+}
+>>>>>>> e87bb1935f6c9fbf1e47bdb3c463003a51d9466a
