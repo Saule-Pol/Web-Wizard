@@ -46,6 +46,11 @@ body {
 }
 
 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
   padding: 0 0 0 40px;
   background-color: rgba(228, 36, 36, 0.6);
   width: 100%;
@@ -64,17 +69,18 @@ header {
   line-height: 23.16px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  text-decoration: none;
   color: rgba(255, 255, 255, 1);
-  top: 50px;
+  top: 30px;
   left: 705px;
   gap: 120px;
 }
 .nav:first-child {
   width: 70px;
 }
-.nav:last-child {
-  width: 157px;
-}
 .nav:nth-child(2) {
   width: 147px;
+}
+.nav:last-child {
+  width: 157px;
 }
