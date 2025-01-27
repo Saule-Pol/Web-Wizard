@@ -78,3 +78,11 @@ header {
 .nav:last-child {
   width: 157px;
 }
+.button {
+  width: 254px;
+  height: 59px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  background: #2e2bd0;
+}
