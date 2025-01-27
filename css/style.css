@@ -8,7 +8,13 @@ body {
   margin: 0;
   background-color: black;
 }
-
+.Logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+}
 .logo {
   width: 14.7px;
   height: 15.25px;
@@ -46,11 +52,6 @@ body {
 }
 
 header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: fixed;
-  align-items: center;
   padding: 0 0 0 40px;
   background-color: rgba(228, 36, 36, 0.6);
   width: 100%;
@@ -107,6 +108,12 @@ header {
   height: 24px;
   top: 17px;
   left: 213px;
+  gap: 0px;
+  opacity: 0px;
+}
+.img {
+  width: 1920px;
+  height: 975px;
   gap: 0px;
   opacity: 0px;
 }
