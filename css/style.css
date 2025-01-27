@@ -68,6 +68,9 @@ header {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: rgba(255, 255, 255, 1);
+  top: 50px;
+  left: 705px;
+  gap: 120px;
 }
 .nav:first-child {
   width: 70px;
