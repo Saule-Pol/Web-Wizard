@@ -59,12 +59,10 @@ header {
 .nav {
   flex-direction: row;
   height: 13px;
-  gap: 23px;
   font-family: "Neue Machina", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 23.16px;
-  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: rgba(255, 255, 255, 1);
