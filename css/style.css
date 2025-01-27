@@ -80,6 +80,12 @@ header {
 .nav:last-child {
   width: 157px;
 }
+.background {
+  width: 1920px;
+  height: 975px;
+  gap: 0px;
+  opacity: 0px;
+}
 .button {
   width: 254px;
   height: 59px;
@@ -112,6 +118,8 @@ header {
   gap: 0px;
   opacity: 0px;
 }
+<<<<<<< HEAD
+=======
 .img {
   width: 1920px;
   height: 975px;
@@ -122,3 +130,4 @@ header {
   width: 1920px;
   height: 975px;
 }
+>>>>>>> e87bb1935f6c9fbf1e47bdb3c463003a51d9466a
