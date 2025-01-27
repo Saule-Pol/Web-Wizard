@@ -51,11 +51,64 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
   align-items: center;
   padding: 0 0 0 40px;
   background-color: rgba(228, 36, 36, 0.6);
-  position: fixed;
   width: 100%;
   height: 80px;
 }
-
+.nav {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  height: 13px;
+  font-family: "Neue Machina", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  top: 30px;
+  left: 705px;
+  gap: 120px;
+}
+.nav:first-child {
+  width: 70px;
+}
+.nav:nth-child(2) {
+  width: 147px;
+}
+.nav:last-child {
+  width: 157px;
+}
+.button {
+  width: 254px;
+  height: 59px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  background: #2e2bd0;
+}
+.button text {
+  width: 129px;
+  height: 19px;
+  top: 20px;
+  left: 40px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Neue Machina;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 19.3px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background: #ffffff;
+}
+.button img {
+  width: 24px;
+  height: 24px;
+  top: 17px;
+  left: 213px;
+  gap: 0px;
+  opacity: 0px;
+}
