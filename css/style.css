@@ -84,8 +84,6 @@ header {
 .background {
   width: 1920px;
   height: 975px;
-  gap: 0px;
-  opacity: 0px;
 }
 .button {
   width: 254px;
@@ -124,10 +122,6 @@ header {
   height: 975px;
   gap: 0px;
   opacity: 0px;
-}
-.background {
-  width: 1920px;
-  height: 975px;
 }
 
 footer {
