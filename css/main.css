@@ -1,5 +1,38 @@
-.grid-container{
+.flex-container{
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 3fr 3fr 4fr 1fr;
-    grid-template-rows: 200px;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: repeat(2, 1fr) 2fr;
+}
+.goal1 {
+    grid-column-start: ;
+    grid-column-end: ;
+    grid-row-start: ;
+    grid-row-end: ;
+    }
+.goal2 {
+    grid-column-start: ;
+    grid-column-end: ;
+    grid-row-start: ;
+    grid-row-end: ;
+}
+.goal3 {
+    grid-column-start: ;
+    grid-column-end: ;
+    grid-row-start: ;
+    grid-row-end: ;
+}
+.goal-1 {
+    grid-column-start: ;
+    grid-column-end: ;
+    grid-row-start: ;
+    grid-row-end: ;
+}
+.goal-2{
+
+}
+.goal-5 {
+
+}
+.goal-7 {
+    
 }
