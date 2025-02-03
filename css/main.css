@@ -246,19 +246,16 @@
     text-decoration: none;
   }
   
-=======
 .grid-container{
->>>>>>> ea8c25a282267bc4dfdbb008eb1d0976a9d9c40a
     display: grid;
     grid-template-rows: 100px 100px;
-    grid-template-columns: repeat(2, 1fr) 2fr;
+    grid-template-columns: repeat(2, 1fr) 2fr 3fr 3fr 4fr 1fr;
 }
-<<<<<<< HEAD
 .goal1 {
-    grid-column-start: ;
-    grid-column-end: ;
-    grid-row-start: ;
-    grid-row-end: ;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
     }
 .goal2 {
     grid-column-start: ;
@@ -273,13 +270,16 @@
     grid-row-end: ;
 }
 .goal-1 {
-    grid-column-start: ;
-    grid-column-end: ;
-    grid-row-start: ;
-    grid-row-end: ;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
 .goal-2{
-
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
 .goal-5 {
 
@@ -287,6 +287,3 @@
 .goal-7 {
     
 }
-=======
->>>>>>> d24b1ba49ec58561173726a6add1838e988fca13
->>>>>>> ea8c25a282267bc4dfdbb008eb1d0976a9d9c40a
