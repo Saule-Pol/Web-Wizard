@@ -7,8 +7,6 @@
 body {
   margin: 0;
   background-color: white;
-  background-image: url("img/title.jpg");
-
 }
 .Logo {
   display: flex;
@@ -54,72 +52,53 @@ body {
 
 header {
   padding: 0 0 0 40px;
-  background-image: url("../img/title.jpg");
-  background-size: cover;
-  height: 800px;
-  background-repeat: no-repeat;
 }
 .nav {
   display: flex;
   position: fixed;
   align-items: center;
-  height: 13px;
+  height: 23px;
   font-family: "Neue Machina", sans-serif;
   list-style-type: none;
   text-decoration: none;
   color: rgba(255, 255, 255, 1); 
-  top: 30px;
+  top: 50px;
   left: 705px;
   gap: 120px;
 }
-.nav:first-child {
-  width: 70px;
+
+nav ul {
+  list-style: none;
+  display: flex;
 }
-.nav:nth-child(2) {
-  width: 147px;
+
+nav ul li {
+  margin-left: 100px;
 }
-.nav:last-child {
-  width: 157px;
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600px;
 }
-.background {
-  width: 1920px;
-  height: 975px;
-}
-.button {
-  width: 254px;
+.ul:last-child {
   height: 59px;
   gap: 0px;
   border-radius: 10px 0px 0px 0px;
   opacity: 0px;
   background: #2e2bd0;
-}
-.button text {
-  width: 129px;
-  height: 19px;
-  top: 20px;
-  left: 40px;
-  gap: 0px;
-  opacity: 0px;
   font-family: "Neue Machina", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 19.3px;
   text-align: left;
   text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  background: #ffffff;
 }
-.button img {
+.ul img {
   width: 24px;
   height: 24px;
   top: 17px;
   left: 213px;
-  gap: 0px;
-  opacity: 0px;
-}
-.img {
-  width: 1920px;
-  height: 975px;
   gap: 0px;
   opacity: 0px;
 }
@@ -234,4 +213,11 @@ footer {
 .footer-bottom a {
   color: #2E2BD0;
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 30px;
+  }
+
+  
 }
