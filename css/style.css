@@ -8,33 +8,7 @@ body {
   margin: 0;
   background-color: white;
 }
-.Logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: fixed;
-  align-items: center;
-}
-.logo {
-  width: 14.7px;
-  height: 15.25px;
-  border: 7.63px;
-  color: #ffffff;
-  position: absolute;
-  margin-top: -41px;
-  margin-left: 1px;
-  padding: 0;
-}
 
-.logo1 {
-  width: 57.77px;
-  height: 42.36px;
-  margin-top: 18.64px;
-  margin-left: 1.71px;
-  margin-bottom: 10px;
-  color: #ffffff;
-  padding-top: 5px;
-}
 
 .text {
   width: 137px;
@@ -220,4 +194,27 @@ footer {
   }
 
   
+}
+header {
+  padding: 0 0 0 40px;
+}
+.contact {
+  display: inline;
+  padding: 17px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #2e2bd0;
+  top: 30px;
+}
+.hero button {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  background: rgba(255,255,255,0);
+  padding-left: 60px;
+  padding-right: 60px;
 }
