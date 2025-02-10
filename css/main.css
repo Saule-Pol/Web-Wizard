@@ -329,3 +329,66 @@ nav ul li a {
   gap: 0px;
   opacity: 0px;
 }
+.goals h2{
+  padding: 50px;
+}
+.choosing {
+padding: 150px;
+
+}
+.choosing p {
+  padding-top: 50px;
+  width: 726px;
+  height: 150px;
+}
+
+.choosing ul li a{
+  color: #2F353F;
+  opacity: 30%;
+  text-decoration: none;
+
+}
+.choosing ul li{
+  list-style-type: none;
+  padding-top: 50px;
+  width: 305px;
+}
+
+#team{
+  color: #2e2bd0;
+  opacity: 100;
+}
+hr{
+  margin-left: -200px;
+  width: 250px;
+  transform: rotate(90deg);
+}
+
+.close h3{
+  color: #2E2BD0;
+}
+.close{
+  margin-top: -225px;
+  margin-left: 200px;
+  border-radius: 70px;
+border: 1px solid rgba(47, 53, 63, 0.50);
+width: 800px;
+flex-shrink: 0;
+padding: 50px;
+}
+
+.work {
+  display: flexbox;
+}
+.work button {
+  font-size: 30px;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  background: rgba(255,255,255,0);
+  padding-left: 60px;
+  padding-right: 60px;
+}
