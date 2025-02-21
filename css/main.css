@@ -378,7 +378,10 @@ padding: 50px;
 }
 
 .work {
-  display: flexbox;
+  padding: 50px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
 }
 .work button {
   font-size: 30px;
@@ -391,4 +394,133 @@ padding: 50px;
   background: rgba(255,255,255,0);
   padding-left: 60px;
   padding-right: 60px;
+}
+.work h2{
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.work-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.work-item {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 14px;
+}
+
+.highlighted { 
+  background: #6C63FF;
+  color: white;
+  text-align: left;
+}
+
+.learn-more {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  grid-column: 3;
+  margin: auto;
+}
+.technologies-section {
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.tech-description {
+  max-width: 600px;
+  font-size: 16px;
+  color: #666;
+}
+
+.timeline {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  position: relative;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.tech-item p {
+  font-size: 12px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.tech-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #aaa;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.active {
+  background-color: blue;
+  width: 12px;
+  height: 12px;
+}
+
+.first-tech {
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.first-tech h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.tech-icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.tech-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.tech-list {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  position: relative;
 }
